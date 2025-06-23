@@ -1,0 +1,2 @@
+tellraw @s [{"text": "Death Coordinates: \nX:", "color":"red"}, {"score": {"objective": "x","name": "@s"}}, {"text": ", Y:"},{"score": {"objective": "y","name": "@s"}}, {"text": ", Z:"},{"score": {"objective": "z","name": "@s"}}]
+scoreboard players set @s deathtrigger 0

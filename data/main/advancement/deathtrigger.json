@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:adventure/minecraft_trials_edition",
+  "criteria": {
+    "PlayerDeath": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Health:0.0f}"
+        }
+      }
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "function": "main:deathtrigger"
+  },
+  "sends_telemetry_event": false
+}
