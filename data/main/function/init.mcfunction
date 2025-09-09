@@ -12,3 +12,7 @@ gamerule playersSleepingPercentage 50
 say Server Reloaded!
 
 function main:tick
+
+chunky radius 1000
+chunky start
+chunky confirm
