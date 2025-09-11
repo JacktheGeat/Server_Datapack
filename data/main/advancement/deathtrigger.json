@@ -10,7 +10,11 @@
       }
     }
   },
-  "requirements": [],
+  "requirements": [
+    [
+      "PlayerDeath"
+    ]
+  ],
   "rewards": {
     "function": "main:deathtrigger"
   },
